@@ -1,0 +1,105 @@
+Module 8 Assignments
+Instructions
+1. Bubble Sort in Python 3 (50 points)
+
+Write a bubble sort program in Python 3. A bubble sort is an algorithm that will sort a list of values into order. On each pass the bubble sort passes through a list of values from start to finish comparing each sequential pair of values. If the values compared are not in order, they are swapped. The sort begins at the start of the list, first comparing the values in position 0 and 1, next the values in positions 1 and 2, then those in positions 2 and 3, and so on until the end of the list is reached. At the end of each pass if the entire list is not in the correct order, the sort will start at the beginning of the list and pass through it again. The sort will continue its passes through the list until the list is sorted.
+
+Your program should prompt the user to input a list of comma-separated integers and should sort the list into ascending order. For instance, if the user inputs 4, 9, 74, 0, 9, 8, 28, 1 this should be sorted to 0, 1, 4, 8, 9, 9, 28, 74
+
+If the user inputs the values in the wrong format your program should detect this and prompt the user to input data in the correct format.
+
+Your program should display the original list on the first line and then each time the sort reaches the end of the list your program should display the number of the pass and the list as it is currently sorted e,g
+
+Original List: 4, 9, 74, 0, 9, 8, 28, 1
+Pass 1: 4, 9, 0, 9, 8, 28, 1, 74
+Pass 2 : 0, 4, 8, 9, 1, 9, 28, 74
+
+Once the sort is complete, the original unsorted list and the sorted list should be displayed along with the number of passes it required to completely sort the list, e.g.
+
+Original List: 4, 9, 74, 0, 9, 8, 28, 1
+Sorted List: 0, 1, 4, 8, 9, 9, 28, 74
+Number of Passes: 6
+
+Finally, your program should prompt the user to ask them if they want to quit or to sort another list.
+
+Submit the .py file for your program.
+Testing
+
+Your program should work for any list of comma separated integers. I will test your program using the following list: 4, 9, 74, 0, 9, 8, 28, 1.
+
+Your program should produce the following output for this list:
+
+Original List: 4, 9, 74, 0, 9, 8, 28, 1
+Pass 1:  4, 9, 0, 9, 8, 28, 1, 74
+Pass 2:  4, 0, 9, 8, 9, 1, 28, 74
+Pass 3 : 0, 4, 8, 9, 1, 9, 28, 74
+Pass 4 : 0, 4, 8, 1, 9, 9, 28, 74
+Pass 5 : 0, 4, 1, 8, 9, 9, 28, 74
+Pass 6 : 0, 1, 4, 8, 9, 9, 28, 74
+
+Original List: 4, 9, 74, 0, 9, 8, 28, 1
+Sorted List: 0, 1, 4, 8, 9, 9, 28, 74
+Number of Passes: 6
+
+ 
+2. ASCII Tic-Tac-Toe (50 points)
+
+Write an application to simulate a game of Tic-Tac-Toe.
+
+Tic-Tac-Toe is a two-player game played on a three by three grid. You can draw this grid on the computer screen using the "|" ASCII character and spaces.
+
+         | | | |
+         | | | |
+         | | | |
+
+The rules of Tic-Tac-Toe are as follows:
+
+    Players take turns filling in empty squares in the three by three grid with either an "X" or an "O".
+    Player X always takes the first turn and fills in squares with an "X".
+    The second player, Player O, fills in squares with an "O".
+    The players continue to take turns until:
+        There are three Xs in a row either horizontally, vertically, or diagonally in which case the player X wins
+        There are three Os in a row either horizontally, vertically, or diagonally in which case the player O wins
+         All nine squares are filled with Xs and Os but neither player has three in a row in which case the game is a draw.
+
+Your program should:
+
+    Draw an empty board to the screen and prompt Player X to fill in one of the squares with an X (your prompt should include instructions on how they indicate which square they want to fill)
+    Continue to prompt each players in turn to fill in an empty square with X or O
+    After each players takes his or her turn the program should display the current state of the board e.g.
+
+          |X| | |
+          | | | |
+          | | |O|
+
+    If after taking their turn either Player X or Player O has three Xs or Os in a row the program should declare them the winner.
+    If after taking their turn neither player has three Xs or Os in a row and all nine square have been filled the game should be declared a draw
+
+Notes:
+
+    Your program should detect illegal moves and input errors. If an illegal move or an input error is detected your program should provide the player with appropriate feedback and prompt them to re-enter their turn.
+    At the end of each game they players should be given the option of playing another game or quitting.
+
+Submit the .py file for your program.
+Testing
+
+Your application will be tested to determine that it correctly:
+
+    Draws the board to the screen
+    Prompts the players to take their turn
+    Handles legal moves, illegal moves, input errors, victory conditions, and draws
+    Allows the players to request to play again or quit
+
+Grading
+
+Your code will be graded based on the following criteria:
+
+    Produces the correct results: 50%
+    Efficiency of code - the fewer lines of code the better: 25%
+    Maintainability - your code should be well commented and should be easy to maintain and update: 25%
+
+- You must use Python 3 for all programming assignments.
+- You can resubmit your code once for re-grading.
+- A programs that won't run or which produces a syntax error will receive a score of zero. You can still re-submit your code but you will lose 20 points.
+- If your program does not produce the correct results for test input values or if you have clearly ignored the instructions you may re-submit but will lose 10 points.
+- You may not "pre-submit" your code and ask for feedback.
