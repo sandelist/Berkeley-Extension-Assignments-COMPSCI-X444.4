@@ -1,0 +1,217 @@
+Module 7 Assignments
+Instructions
+1. Text Conversion in Python 3 (40 points)
+
+Write a program in Python 3 that converts a sentence typed in by the user to Pig Latin. Pig Latin has two rules:
+
+    If a word begins with a consonant all consonants before the first vowel are moved to the end of the word and the letters "ay" are then added to the end. e.g. "coin" becomes "oincay" and "flute" becomes "uteflay".
+    If a word begins with a vowel then "yay" is added to the end. e.g."egg" becomes "eggyay" and "oak" becomes "oakyay".
+
+You can assume that the sentence will have no punctuation but the application should be able to handle both upper-case and lower-case letters.
+
+After outputting the results your program should prompt the user to ask them if they want to quit or convert another sentence.
+
+Submit the .py file for your program.
+Testing
+
+Your program should work for any legitimate sentence that is input and should not crash regardless of what the user types in. I will test your program using the following sentence: the rain in Spain
+
+Your program should produce the following output: ethay ainray inyay ainSpay
+2. Sorting Numbers in Python 3 (40 points)
+
+Write an application in Python 3 that prompts the user to enter a list of comma separated numbers, sorts those numbers using the insertion sort algorithm, and calculates the mean value of the list.
+
+The insertion sort that works in the same way that you would typically sort playing cards in your hand by finding the correct place of the each number in the list one at a time from left to right. Insertion sorts follow the following steps:
+
+Step 1: Set the second number in the list
+
+ 
+	
+
+↓
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+
+2
+	
+
+4
+	
+
+4
+	
+
+1
+	
+
+9
+	
+
+0
+
+Step 2: Compare that number with each of the previous numbers in the list, swapping them if they are in the wrong order.
+
+ 
+	
+
+↓
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+
+2
+	
+
+4
+	
+
+4
+	
+
+1
+	
+
+9
+	
+
+0
+
+4 is greater than 2 so swap them
+
+ 
+
+Step 3: Once all the previous numbers are in the correct order advance to the next number in the list.
+
+ 
+	
+
+ 
+	
+
+↓
+	
+
+ 
+	
+
+ 
+	
+
+ 
+
+2
+	
+
+4
+	
+
+4
+	
+
+1
+	
+
+9
+	
+
+0
+
+ 
+
+Step 4: Repeat Steps 2 and 3 until the list is in the correct order.
+
+ 
+
+Your application should:
+
+    Prompt the user to enter a list of comma separated numbers.
+    Pass that number to a user defined function called insertion_sort that takes a list of numbers entered by the user, sorts them using the insertion sort algorithm, and returns the sorted list.
+    Pass the sorted list to a function called calculate_mean which calculates the mean value of the numbers in the list and return the result of that calculation.
+    Your program should check for errors in the values input by the user and should continue to prompt the user for new lists of numbers until the user types in Exit.
+    After outputting the sort results your program should prompt the user to ask them if they want to quit or sort another list.
+
+As output your application should:
+
+    Print the original list as a comma separated list
+    Print the results of each swap along with the number of the swap
+    Print the mean value of the list
+    Print the number of swaps
+
+Submit the .py file for your program.
+Testing
+
+Your program should work for any list of comma separated integers. I will test your program using the following list: 2,4,4,1,10,0
+
+Your program should produce the following output for this list:
+
+Original List: 2, 4, 4, 1, 10, 0
+
+Swap 1:  2, 4, 1, 4, 10, 0
+Swap 2: 2, 1, 4, 4, 10, 0
+Swap 3:  1, 2, 4, 4, 10, 0
+Swap 4:  1, 2, 4, 4, 0, 10
+Swap 5: 1, 2, 4, 0, 4, 10
+Swap 6:  1, 2, 0, 4, 4, 10
+Swap 7:  1, 0, 2, 4, 4, 10
+Swap 8:  0, 1, 2, 4, 4, 10
+
+Sorted List: 0, 1, 2, 4, 4, 10
+Mean Value: 3.5
+3. Reverse a Word using Recursion in Python 3 (20 points)
+
+Write a Python 3 application that contains a recursive user-defined function called reverse. The reverse function should reverse the order of the letters of any word passed to it. 
+
+You should not use a built-in or imported function to reverse the word.
+
+Your program should :
+
+- prompt the user to input a word
+- output the word string to the screen
+- output the reversed word to the screen
+
+Submit the .py file for your program.
+Testing
+
+Your program should work for a word of any length. I will test your program using the following words:
+
+- Hello
+- Hola
+
+Your program should produce the following output for "Hello":
+
+- Original Word: Hello
+- Reversed Word: olleH
+
+After outputting the results your program should prompt the user to ask them if they want to quit or reverse anther word.
+GRADING
+
+Your code will be graded based on the following criteria:
+
+    Produces the correct results: 50%
+    Efficiency of code - the less code used the better: 25%
+    Maintainability - your code should be readable, well commented, and should be easy to maintain and update: 25%
+
+- You must use Python 3 for all programming assignments.
+- You can resubmit your code once for re-grading.
+- A programs that won't run or which produces a syntax error will receive a score of zero. You can still re-submit your code but you will lose 20 points.
+- If your program does not produce the correct results for the test input values that are given in the question or if you have clearly ignored the instructions you may re-submit but will lose 10 points.
+- You may not "pre-submit" your code and ask for feedback.
