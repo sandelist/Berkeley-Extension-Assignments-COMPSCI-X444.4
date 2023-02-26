@@ -1,0 +1,54 @@
+Module 6 Assignments
+Instructions
+1. Develop a Python 3 program to identify leap years on Mars (40 points)
+
+In 1985 Thomas Gangale, an aerospace engineer, created a calendar for Mars known as the Darian Calendar. Mars has a sidereal year of 668.5907 Martian days. A Martian day is 24 hours 39 minutes, 35.244 seconds in length. In each decade there are 6 leap years that last 669 days and 4 normal years that last 668 days. Odd years, and years that are divisible by 10 are leap years. Modify the leap year program in Module 6 to calculate whether a particular Martian year is a leap year. The program should continue to prompt the user for new inputs. Typing "exit" or "Exit" should terminate.  Submit the .py file for your program.
+
+Testing
+
+Your program should work for any value that is input. I will test your program using one of more of the following values: 2000, 2001, 2002, 2033, sdfjhm, exit, Exit
+
+ 
+2. Develop an Interactive Python 3 Celsius to Fahrenheit Conversion Program (40 points)
+
+Develop an interactive version of a Celsius to Fahrenheit conversion program which prompts the user to input a value either in Celsius or in Fahrenheit. If a value in Celsius in input it will convert it to Fahrenheit and display the result. If a value in Fahrenheit in input it will convert the value to Celsius and display the result. The program should continue to prompt the user for new inputs. Typing "exit" or "Exit" should terminate. If the user does not enter a numeric value (other than "exit" or "Exit") the program should notify the user that "I don't understand. Try again." The program should be able to handle decimals and negative temperatures.
+Testing
+
+Your program should work for any value that is input. I will test your program using one of more of the following values: 33 Celsius, -5 Celsius, 91.4 Fahrenheit
+
+Your program should produce results that are accurate to two or more decimal places.
+
+ 
+3. Hello World in Morse Code (20 points)
+
+Follow the instructions for the Blinking Light example under section 4.5: Physical Computing on the Raspberry Pi to set up the Pi to control an LED. Create a program in Python that:
+
+- Converts the String "Hello World" to Morse code
+
+- Causes the LED to blink "Hello World" in Morse code.
+
+- Prints the letters, dots, dashes, and pauses to the screen in time with the blinking of the LED.
+
+- Your code should be written so that the value of the input String can be changed and it should work for any value that is input.
+
+Your code should be designed so that it will work with other input strings of text. I am looking for efficient code that makes appropriate use of Python's control structures. I may ask you to make adjustments to the code you submit. Submit the .py file for your program. 
+Testing
+
+Your program should convert the string "Hello World" to Morse code, output each letter, Dot, Dash, Pause, and Space to the screen, and cause the LED to blink in time with the output.
+
+ 
+
+ 
+GRADING
+
+Your code will be graded based on the following criteria:
+
+    Produces the correct results: 50%
+    Efficiency of code - the fewer lines of code the better: 25%
+    Maintainability - your code should be well commented and should be easy to maintain and update: 25%
+
+- You must use Python 3 for all programming assignments.
+- You can resubmit your code once for re-grading.
+- A programs that won't run or which produces a syntax error will receive a score of zero. You can still re-submit your code but you will lose 20 points.
+- If your program does not produce the correct results for the test input values that are given in the question or if you have clearly ignored the instructions you may re-submit but will lose 10 points.
+- You may not "pre-submit" your code and ask for feedback.
