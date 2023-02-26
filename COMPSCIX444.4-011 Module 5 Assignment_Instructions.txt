@@ -1,0 +1,62 @@
+Module 5 Assignment
+Instructions
+1. Celsius to Fahrenheit Conversion (40 points)
+
+Create a Python 3 program that asks the user to input a temperature in Celsius and then outputs that temperature in Fahrenheit. Submit the .py file for your program.
+Testing
+
+Your program should work for any temperature that is input. I will test your program using one of more of the following values: 33, -5, 3.4
+
+Your program should produce the following output (with values accurate to to two or more decimal places) for each of these input values:
+
+33.0 Celsius equals 91.4 Fahrenheit
+-5.0 Celsius equals 23.0 Fahrenheit
+3.4 Celsius equals 38.12 Fahrenheit
+2. Centimeters to Inches Conversion (40 points)
+
+Create a Python 3 program that asks the user to input a value in centimeters and then outputs that value in inches. 1 inch is equal to 2.54 centimeters. Submit the .py file for your program.
+Testing
+
+Your program should work for any legitimate value that is input. I will test your program using one of more of the following value: 2, 5.08
+
+Your program should produce the following output (with values accurate to two or more decimal places) for each of these input values:
+
+2 Centimeters equals 0.79 Inches
+5.08 Centimeters equals 2.0 Inches
+
+ 
+3. All about Circles (20 points)
+
+Create a Python 3 program that asks the user to input the radius of a circle in inches. The program should then output the the following based on the user's input radius and where your program calculates the [value] based on the appropriate formula:
+
+- The radius of your circle is [value] inches
+- The circumference of your circle [value] inches
+- The area of your circle is [value] square inches
+- A sphere with the radius of your circle would be have a surface area of [value] square inches and a volume of [value] cubic inches.
+
+In your calculations you can use 3.14 as the value of Pi.
+
+Submit the .py file for your program.
+Testing
+
+Your program should work for any legitmate radius value that is input. I will test your program using a radius of 6 inches.
+
+Your program should produce the following output the following results for this input:
+
+- The radius of your circle is 6 inches
+- The circumference of your circle 37.68 inches
+- The area of your circle is 113.04 square inches
+- A sphere with the radius of your circle would be have a surface area 452.16 square inches and a volume of 904.32 cubic inches. 
+Grading
+
+Your code will be graded based on the following criteria:
+
+    Produces the correct results: 50%
+    Efficiency of code - the fewer lines of code the better: 25%
+    Maintainability - your code should be well commented and should be easy to maintain and update: 25%
+
+- You must use Python 3 for all programming assignments.
+- You can resubmit your code once for re-grading.
+- A programs that won't run or which produces a syntax error will receive a score of zero. You can still re-submit your code but you will lose 20 points.
+- If your program does not produce the correct results for the test input values that are given in the question or if you have clearly ignored the instructions you may re-submit but will lose 10 points.
+- You may not "pre-submit" your code and ask for feedback.
